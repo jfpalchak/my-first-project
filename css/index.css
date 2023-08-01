@@ -1,0 +1,108 @@
+div {
+    text-align: center;
+}
+
+body {
+    background-color: grey;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    background-color: navy;
+}
+
+.list ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 50px;
+    border: 5px rgb(31, 31, 140) solid;
+    text-align: center;
+    background-color: teal;
+    border-radius: 2px;
+
+}
+
+.list ul li {
+    font-size: 20px;
+    display: inline-block;
+    padding: 0px 50px;
+    border: 20px;
+
+}
+
+.list a:hover {
+    background-color: violet;
+
+}
+
+a.active {
+    /* background-color: rgb(146, 255, 255); */
+    border: 2px black solid;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+a {
+    color: black;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+p {
+    text-align: center;
+}
+
+input {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+form {
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.formlist ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    background-color: red;
+    margin: -1px;
+    border: 30px white dashed;
+    border-radius: 100em;
+}
+
+.walrus {
+    border-radius: 50px;
+    opacity: 50%;
+}
+
+.walrus:hover {
+    background-color: gray;
+}
+
+.dog {
+    border-radius: 50px;
+    opacity: 75%;
+}
+
+/* label.relative {
+    background-color: yellow;
+    position: relative;
+    right: 35px;
+    justify-content: center;
+} */
